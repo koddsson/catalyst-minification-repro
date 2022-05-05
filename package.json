@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npx esbuild --minify --keep-names --loader=ts < index.ts > index.js",
+    "build": "npx esbuild --minify --keep-names --loader=ts --target=es2019 < index.ts > index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
